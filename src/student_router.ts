@@ -24,6 +24,7 @@ router.get('/:id', async (req: Request, res: Response) => {
   }
 });
 
+// add new student
 router.post('', async (req: Request, res: Response) => {
   const newStudent = req.body;
   try {

@@ -46,7 +46,7 @@
 
 <script>
 async function fetchStudents() {
-  const url = 'http://localhost:8089/api/students';
+  const url = '/api/students';
   try {
     const response = await fetch(url);
     if (!response.ok) {
